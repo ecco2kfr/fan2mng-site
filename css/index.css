@@ -1,0 +1,467 @@
+#playButtonKETER {
+  font-family: bit;
+  font-size: 7vh;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: bit;
+  src: url(../fonts/Adobe\ Dia.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: bit;
+  background-color: black;
+}
+
+audio {
+  color: blue;
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  padding-top: 1%;
+  padding-left: 3%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: white;
+}
+header img {
+  max-height: 5vh;
+}
+nav ul {
+  text-align: center;
+  font-size: 5vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+nav ul li {
+  padding-bottom: 1vh;
+}
+
+.texteAlbum1 {
+  color: white;
+  padding-top: 20vh;
+  text-align: center;
+  font-size: 40px;
+}
+.container1 {
+  font-family: bit;
+  font-size: 40px;
+  display: grid;
+  place-items: center;
+}
+.container1 img {
+  max-width: 250px;
+  border: 1vh solid white;
+}
+.listeNE1 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeNE1 a {
+  text-decoration: none;
+  color: white;
+}
+.listeNE2 {
+  text-align: center;
+}
+.listeNE2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.texteAlbum2 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container2 {
+  font-size: 40px;
+  display: grid;
+  place-items: center;
+}
+.container2 img {
+  max-width: 250px;
+  border: 1vh solid white;
+}
+
+.listeREDSUN1 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeREDSUN1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.listeREDSUN2 {
+  text-align: center;
+}
+.listeREDSUN2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.texteAlbum3 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container3 {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.container3 img {
+  max-width: 250px;
+  border: 1vh solid grey;
+}
+
+.listeANIMA {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeANIMA a {
+  text-decoration: none;
+  color: white;
+}
+
+.texteAlbum4 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container4 {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.container4 img {
+  max-width: 250px;
+  border: 1vh solid white;
+}
+
+.listeCAPGRAS {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeCAPGRAS a {
+  text-decoration: none;
+  color: white;
+}
+
+.texteAlbum5 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container5 {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.container5 img {
+  max-width: 250px;
+  border: 1vh solid white;
+}
+
+.listeVOIREM1 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeVOIREM1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.listeVOIREM2 {
+  text-align: center;
+}
+.listeVOIREM2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.texteAlbum6 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container6 {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.container6 img {
+  max-width: 250px;
+  border: 1vh solid white;
+}
+
+.listeVRAIMENTM1 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeVRAIMENTM1 a {
+  text-decoration: none;
+  color: white;
+}
+
+.listeVRAIMENTM2 {
+  text-align: center;
+}
+.listeVRAIMENTM2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.container7 img {
+  opacity: 0%;
+  margin-left: 10vh;
+  min-width: 35vh;
+  max-width: 35vh;
+}
+
+@media screen and (min-width: 769px) {
+  .texteAlbum1 {
+    color: white;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 8vh;
+  }
+  .container1 {
+    padding-top: 5vh;
+    display: flex;
+  }
+  .container1 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 1vh solid white;
+  }
+  .listeNE1 {
+    font-size: 6.5vh;
+    text-align: left;
+    padding-left: 10vh;
+  }
+  .listeNE1 a {
+    text-decoration: none;
+    color: white;
+  }
+  .listeNE2 {
+    font-size: 6.5vh;
+    text-align: left;
+    padding-left: 10vh;
+    margin-top: 3vh;
+  }
+  .listeNE2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .texteAlbum2 {
+    color: white;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 8vh;
+  }
+  .container2 {
+    padding-top: 5vh;
+    display: flex;
+  }
+  .container2 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 1vh solid white;
+  }
+
+  .listeREDSUN1 {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    text-align: left;
+  }
+  .listeREDSUN1 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .listeREDSUN2 {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    margin-top: 3vh;
+    text-align: left;
+  }
+
+  .listeREDSUN2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .texteAlbum3 {
+    color: white;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 8vh;
+  }
+
+  .container3 {
+    padding-top: 5vh;
+    display: flex;
+  }
+  .container3 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 1vh solid grey;
+  }
+
+  .listeANIMA {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    text-align: left;
+  }
+  .listeANIMA a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .texteAlbum4 {
+    color: white;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 8vh;
+  }
+
+  .container4 {
+    padding-top: 5vh;
+    display: flex;
+  }
+  .container4 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 1vh solid white;
+  }
+
+  .listeCAPGRAS {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    text-align: left;
+  }
+  .listeCAPGRAS a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .texteAlbum5 {
+    color: white;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 8vh;
+  }
+
+  .container5 {
+    padding-top: 5vh;
+    font-size: 40px;
+    display: flex;
+  }
+  .container5 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 1vh solid white;
+  }
+
+  .listeVOIREM1 {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    text-align: left;
+  }
+  .listeVOIREM1 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .listeVOIREM2 {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  .listeVOIREM2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .texteAlbum6 {
+    color: white;
+    padding-top: 20vh;
+    text-align: center;
+    font-size: 8vh;
+  }
+
+  .container6 {
+    padding-top: 5vh;
+    font-size: 40px;
+    display: flex;
+  }
+  .container6 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+    border: 1vh solid white;
+  }
+
+  .listeVRAIMENTM1 {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    text-align: left;
+  }
+  .listeVRAIMENTM1 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .listeVRAIMENTM2 {
+    font-size: 6.5vh;
+    padding-left: 10vh;
+    margin-top: 3vh;
+    text-align: left;
+  }
+  .listeVRAIMENTM2 a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .container7 img {
+    margin-left: 10vh;
+    min-width: 35vh;
+    max-width: 35vh;
+  }
+}

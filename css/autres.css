@@ -1,0 +1,225 @@
+@font-face {
+  font-family: bit;
+  src: url(../fonts/Adobe\ Dia.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: bit;
+  background-color: black;
+}
+
+header {
+  background-color: black;
+  color: red;
+  padding-top: 1%;
+  padding-left: 3%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: red;
+}
+header img {
+  max-height: 5vh;
+}
+nav ul {
+  text-align: left;
+  font-size: 5vh;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+nav ul li {
+  padding-bottom: 1vh;
+}
+
+.texteAlbum1 {
+  color: red;
+  padding-top: 20vh;
+  text-align: center;
+  font-size: 40px;
+}
+.container1 {
+  font-size: 30px;
+  display: grid;
+  place-items: center;
+}
+.container1 img {
+  max-width: 250px;
+}
+.listeAutres1 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeAutres1 a {
+  text-decoration: none;
+  color: red;
+}
+
+.texteAlbum2 {
+  color: red;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container2 {
+  font-size: 30px;
+  display: grid;
+  place-items: center;
+}
+.container2 img {
+  max-width: 250px;
+}
+
+.listeAutres2 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeAutres2 a {
+  text-decoration: none;
+  color: red;
+}
+
+.texteAlbum3 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container3 {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.container3 img {
+  max-width: 250px;
+}
+
+.listeAutres3 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeAutres3 a {
+  text-decoration: none;
+  color: red;
+}
+
+.texteAlbum4 {
+  color: white;
+  padding-top: 5vh;
+  text-align: center;
+  font-size: 40px;
+}
+
+.container4 {
+  font-size: 35px;
+  display: grid;
+  place-items: center;
+}
+.container4 img {
+  max-width: 250px;
+}
+
+.listeAutres4 {
+  text-align: center;
+  padding-top: 3vh;
+}
+.listeAutres4 a {
+  text-decoration: none;
+  color: red;
+}
+
+@media screen and (min-width: 769px) {
+  .texteAlbum1 {
+    color: red;
+    padding-top: 15vh;
+    text-align: center;
+    font-size: 10vh;
+  }
+  .container1 {
+    font-size: 6vh;
+    display: grid;
+    place-items: center;
+  }
+  .container1 img {
+    max-width: 50vh;
+    min-width: 50vh;
+  }
+  .listeAutres1 {
+    text-align: center;
+    padding-top: 3vh;
+  }
+  .listeAutres1 a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .container2 {
+    display: grid;
+    place-items: center;
+  }
+  .container2 img {
+    max-width: 50vh;
+    min-width: 50vh;
+  }
+
+  .listeAutres2 {
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 3vh;
+  }
+  .listeAutres2 a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .container3 {
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+  }
+  .container3 img {
+    max-width: 50vh;
+    min-width: 50vh;
+  }
+
+  .listeAutres3 {
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 3vh;
+  }
+  .listeAutres3 a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .container4 {
+    font-size: 50px;
+    display: grid;
+    place-items: center;
+  }
+  .container4 img {
+    max-width: 50vh;
+    min-width: 50vh;
+  }
+
+  .listeAutres4 {
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 3vh;
+  }
+  .listeAutres4 a {
+    text-decoration: none;
+    color: red;
+  }
+}
