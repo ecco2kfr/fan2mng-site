@@ -1,6 +1,6 @@
-# Soeur - Website Style Showcase
+# Ptite Soeur & MNG - Website Style Showcase
 
-This project is a website designed to showcase a particular visual and interactive style. It features a unique, experimental, and somewhat cryptic aesthetic with dynamic text elements and distinct sections.
+This project is a website designed to showcase a particular visual and interactive style. It features a unique, experimental, and somewhat cryptic aesthetic with dynamic text elements and distinct sections. Hosted with Vercel
 
 ## Project Purpose
 
